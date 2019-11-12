@@ -34,7 +34,7 @@ func main() {
 	flag.Parse()
 	if *file == "" || *output == "" {
 		flag.Usage()
-		os.Exit(1)
+		os.Exit(2)
 	}
 
 	text := readFile(*file)
