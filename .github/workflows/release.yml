@@ -23,7 +23,7 @@ jobs:
         fi
     - uses: actions/checkout@master
     - name: Generate
-      run: bash .github/builder
+      run: bash .github/build
     - name: Upload the artifacts
       uses: skx/github-action-publish-binaries@master
       env:
